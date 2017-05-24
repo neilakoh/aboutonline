@@ -1,3 +1,4 @@
+/* THIS IS FOR THE SETUP PAGE */
 #setupWrapper {
   margin: auto auto;
   width: 50%;
@@ -11,4 +12,40 @@
 
 .badge-failed {
   background-color: red!important;
+}
+
+/* THIS IS FOR THE HOME PAGE */
+.topHeaderBar {
+  background: #000000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#1c1c1c, #2e2e2e); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1c1c1c, #2e2e2e); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1c1c1c, #2e2e2e); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1c1c1c, #2e2e2e); /* Standard syntax */
+  height: 35px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  box-shadow: 0px 5px 10px #000000;
+  z-index: 2;
+}
+
+.headerMidBar {
+  background: red;
+  background-repeat: repeat;
+  height: 180px;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  top: 0px;
+}
+
+.siteTitle {
+  font-size: 40px;
+  color: #ffffff;
+  position: absolute;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 75px;
+  width: 100%;
+  text-align: center;
 }

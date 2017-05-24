@@ -1,5 +1,5 @@
 <?php
   include('methods.php');
   $dbname = "aboutonline";
-  (databaseExist($dbname) ? include('components/setup.php') : include('components/setup.php'));
+  (databaseExist($dbname) ? include('components/home.php') : include('components/setup.php'));
 ?>
