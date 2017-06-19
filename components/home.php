@@ -12,12 +12,17 @@
     <div class="mainWrapper">
 
       <div class="headerWrapper">
-        <div class="topHeaderBar">
 
+        <div class="topHeaderBar">
+          <div class="topMenu">
+            <div id="menu">Home</div>
+          </div>
         </div>
+
         <div class="headerMidBar">
           <div class="siteTitle">About Online</div>
         </div>
+
       </div>
 
       <div class="bodyWrapper">

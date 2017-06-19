@@ -1,3 +1,9 @@
+/*CUSTOM FONTS*/
+@font-face {
+    font-family: 'Merienda-Bold'; /*a name to be used later*/
+    src: url('./custom_fonts/Merienda-Bold.ttf'); /*URL to font*/
+}
+
 /* THIS IS FOR THE SETUP PAGE */
 #setupWrapper {
   margin: auto auto;
@@ -29,8 +35,12 @@
   z-index: 2;
 }
 
+#menu {
+  color: #ffffff;
+}
+
 .headerMidBar {
-  background: red;
+  background-image: url("../images/background.jpg");
   background-repeat: repeat;
   height: 180px;
   width: 100%;
@@ -40,7 +50,7 @@
 }
 
 .siteTitle {
-  font-size: 40px;
+  font-size: 45px;
   color: #ffffff;
   position: absolute;
   margin-left: 0px;
@@ -48,4 +58,6 @@
   margin-top: 75px;
   width: 100%;
   text-align: center;
+  font-family: 'Merienda-Bold';
+  text-shadow: 2px 2px rgba(141,67,3, 0.8);
 }
